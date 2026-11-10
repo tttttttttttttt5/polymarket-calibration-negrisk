@@ -1,0 +1,23 @@
+# runtime caches and generated artifacts
+tape_plan.json
+tape_cache/
+cache/
+data/
+out/
+*.parquet
+
+# case outputs
+case_*.json
+*_wallets.csv
+rq2_spread_*.csv
+
+# outputs
+calibration_*.csv
+rq1_error_by_category.png
+
+# python
+__pycache__/
+*.pyc
+
+# secrets (never commit)
+.env
